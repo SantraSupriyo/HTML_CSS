@@ -1,0 +1,27 @@
+.loader{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 10px solid rgba(142, 153, 154, 0.959);
+  border-top: 10px solid black;
+  border-radius: 50%;
+  transition: transform 2s;
+}
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.loader:hover{
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}

@@ -1,0 +1,9 @@
+div{
+  height: 200px;
+  width: 400px;
+  background-image: url("bird.jpg");
+  background-size: cover;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
